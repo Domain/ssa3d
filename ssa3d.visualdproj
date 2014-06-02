@@ -110,7 +110,10 @@
       <File path="source\ssa3d\reader\reader.d" />
       <File path="source\ssa3d\reader\srtreader.d" />
      </Folder>
-     <Folder name="writer" />
+     <Folder name="writer">
+      <File path="source\ssa3d\writer\ssawriter.d" />
+      <File path="source\ssa3d\writer\writer.d" />
+     </Folder>
     </Folder>
     <File path="source\app.d" />
    </Folder>
