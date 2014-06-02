@@ -1,0 +1,25 @@
+{
+	"name": "ssa3d",
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2014, Main",
+	"authors": ["Main"],
+	"dependencies": {
+	},
+	"configurations": [
+		{
+			"name": "console",
+			"targetType": "executable",
+			"versions": ["CLI"],
+            "excludedSourceFiles": ["source/ssa3d/gui/*"]
+		},
+		{
+			"name": "gui",
+			"targetType": "executable",
+			"versions": ["GUI"],
+            "excludedSourceFiles": ["source/ssa3d/cli/*"],
+			"dependencies": {
+				"dgui": ">=1.0.1"
+			}
+		}
+	]
+}
